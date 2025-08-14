@@ -17,7 +17,7 @@ Mettre en place une **infrastructure hybride** combinant :
 | VM                         | Rôle                | Adresse IP    |
 |----------------------------|---------------------|---------------|
 | `2501 (LXC)`               | LXC                 | `192.168.4.5` |
-| `2302 (Dockerpourlesnuls)` | Docker              | `192.168.4.6` |
+| `2502 (Dockerpourlesnuls)` | Docker              | `192.168.4.6` |
 
 ---
 
