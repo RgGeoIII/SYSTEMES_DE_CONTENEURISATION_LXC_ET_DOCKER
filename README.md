@@ -45,27 +45,62 @@ Mettre en place une **infrastructure hybride** combinant :
 
 ## 📂 Contenu du Projet
 ```plaintext
-Projet Conteneurisation Hybride/
-├── partie1/       → TP sur la simulation d’un ransomware
-│   ├── db/
-│   │   ├── Dockerfile
-│   │   └── entrypoint.sh
-│   ├── web/
-│   │   └── Dockerfile
-│   └── deploymentscript.sh
-│
-├── partie2/            
-│   └── deploymentscript.sh
-│
-└── site/
+Dossier principale 
+                 ├── LXC LXD
+                 │         └── tp1.sh
+                 ├──Docker/
+                 │       ├──Docker pour les nuls/
+                 │       │                      ├──TP1/
+                 │       │                      │    ├──Avecdockerfile.sh
+                 │       │                      │    └──Sansdockerfile.sh
+                 │       │                      └──TP2.sh  
+                 │       └──Docker pour les moins nuls
+                 │                                   └──docker-compose.yml                                       
+                 ├── Projet Conteneurisation Hybride/
+                 ├── partie1/
+                 │   ├── db/
+                 │   │   ├── Dockerfile
+                 │   │   └── entrypoint.sh
+                 │   ├── web/
+                 │   │   └── Dockerfile
+                 │   └── deploymentscript.sh
+                 │
+                 ├── partie2/            
+                 │   └── deploymentscript.sh
+                 │
+                 └── site/
 ```
+
+---
+
+## 🚀 Docker Pour les nuls
+
+### 🛠️ Tp1
+```bash
+chmod +x <fichier.sh>
+./<fichier.sh>
+```
+
+### 🛠️ Tp2
+```bash
+docker compose up -d
+```
+
+---
+
+## 🚀 Docker Pour les moins nuls
+
+```bash
+docker compose up -d
+```
+
 
 ---
 
 ## 🚀 Projet Conteneurisation Hybride
 
 
-#### 1. 🛠️ Partie1
+### 1. 🛠️ Partie1
 
 ```bash
 chmod +x deploymentscript.sh
@@ -74,7 +109,7 @@ chmod +x deploymentscript.sh
 
 ---
 
-#### 1. 🛠️ Partie2
+### 1. 🛠️ Partie2
 
 Mise en place d'un ensemble Apache (Httpd) + MariaDB avec LXD
 

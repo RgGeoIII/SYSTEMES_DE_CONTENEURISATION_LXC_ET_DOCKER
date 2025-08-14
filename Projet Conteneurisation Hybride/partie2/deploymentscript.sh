@@ -1,6 +1,4 @@
 #!/usr/bin/env bash
-# Usage: ./lxd_easy.sh nom_projet
-# Exemple: ./lxd_easy.sh demo
 
 set -e
 
